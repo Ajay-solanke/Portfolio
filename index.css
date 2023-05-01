@@ -2,6 +2,7 @@
 
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -158,6 +159,7 @@ span {
 .heading {
     text-align: center;
     font-size: 4.5rem;
+    margin-bottom: 5rem;
 }
 
 .about-content h2 {
@@ -276,4 +278,34 @@ span {
     font-weight: 600;
     transition: .5s ease; 
     line-height: 2.5;
+}
+
+.contactme  {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+
+.contactme a {
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 42%;
+    font-size: 3rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    text-align: center;
+}
+
+.contactme a:hover{
+    background-color: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer {
+    text-align: center;
+    font-size: 2rem;
 }
