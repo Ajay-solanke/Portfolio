@@ -156,6 +156,10 @@ span {
     width: 35vw;
 }
 
+.about-img img {
+    width: 200px;
+}
+
 .heading {
     text-align: center;
     font-size: 4.5rem;
@@ -250,24 +254,49 @@ span {
     font-size: 1.6rem;
 }
 
+.projectcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
 
-.projectList .heading {
-    width: 115%;
-    font-size: 3.5rem;
-    line-height: 1.5;
+.leftcontainer{
+    width: 521px;
+    height: 274px;
+   outline: 5px solid #7e8dbf;
+   outline: 2px solid #7e8dbf;
 
 }
 
-.projectList p {
-    width: 115%;
-    font-size: 2.0rem;
-    margin-left: 535px;
+.hedingproject{
+    width: 100%;
+    height: 100%;
+    
 }
 
-.project-container .btn1 {
-    width: 115%;
+.headingproject img {
+    width: 460px;
+}
+
+.projectright p{
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--clr);
+}
+
+.projectheding{
+    font-size: 47px;
+    font-weight: 800;
+    color: var(--clr);
+}
+
+.projectheding h2 {
+    font-size: 47px;
+}
+
+.viewcode  {
+    
     font-size: 2.0rem;
-    margin-left: 535px;
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
@@ -277,7 +306,9 @@ span {
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease; 
-    line-height: 2.5;
+    line-height: 1.5;
+    margin-top: 72px;
+    width: 150px;
 }
 
 .contactme  {
